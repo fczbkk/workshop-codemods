@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-mall",
+  "version": "1.1.0",
+  "description": "Set of custom Eslint rules for internal use at Mall.cz.",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Riki Fridrich <richard.fridrich@mallgroup.com>",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "eslint-plugin-vue": "^6.1.2",
+    "eslint": "~6.8.0",
+    "requireindex": "~1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}

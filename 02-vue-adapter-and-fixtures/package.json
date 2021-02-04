@@ -1,0 +1,17 @@
+{
+  "name": "codemod-remove-aliases",
+  "version": "1.0.0",
+  "dependencies": {
+    "jscodeshift": "^0.11.0",
+    "vue-jscodeshift-adapter": "^2.2.0"
+  },
+  "scripts": {
+    "transform": "jscodeshift ./sample/ --transform transform.js --extensions vue,js",
+    "dev": "npm run test -- --watch",
+    "test": "jest --config=jest.config.json"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "jscodeshift-helper": "^1.1.0"
+  }
+}
